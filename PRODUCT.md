@@ -20,7 +20,7 @@ Jatranexa.id (PT Jatra Solusi Integrasi) sells digital marketing and event organ
 
 ## Positioning
 
-Online campaign and on-site event delivered by one team, so brand message stays consistent.
+Two divisions under PT Jatra Solusi Integrasi: Jatra Nexa Bakti (Event Organizer; programs Nexa Care, Literacy, Green, Society) and Jatra Nexa Marketing (Digital Marketing). Presented as two separate divisions, not one team.
 
 ## Capabilities and Constraints
 
