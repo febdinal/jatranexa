@@ -31,6 +31,20 @@
     }
   });
 
+  // filter layanan
+  var tabs = document.querySelectorAll('.tabs button');
+  var cards = document.querySelectorAll('#cards .card');
+  tabs.forEach(function (t) {
+    t.addEventListener('click', function () {
+      var f = t.getAttribute('data-f');
+      tabs.forEach(function (x) {
+        x.classList.toggle('on', x === t);
+        x.setAttribute('aria-selected', x === t);
+      });
+      cards.forEach(function (c) { c.hidden = f !== 'all' && c.getAttribute('data-cat') !== f; });
+    });
+  });
+
   // form -> WhatsApp
   var form = document.getElementById('form');
   var err = document.getElementById('err');
